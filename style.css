@@ -1,0 +1,41 @@
+ body{
+   margin: 0;
+ }
+ .container-head{
+   width: 100%;
+   padding: 0 22px;
+   margin: 0;
+ }
+.carousel{
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+
+}
+
+.carousel img{
+  padding: 0 5px;
+  width: 80%  ;
+}
+
+.container-head a{
+  text-decoration: none;
+  color: #2b4ac7;
+  float:right
+}
+
+.carousel-dot{
+  width: 8px;
+  height: 8px;
+  border: none;
+  background-color: #ebebeb;
+  border-radius: 100%;
+  outline: none;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.carousel-page{
+  float:left;
+  padding-top : 4px;
+}
