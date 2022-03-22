@@ -1,0 +1,81 @@
+.coba {
+  display: flex;
+  justify-content: space-between;
+}
+.judul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex-row;
+}
+
+li a {
+  font-size: 16px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  margin-left: -10px;
+}
+
+a {
+  margin-right: 10px;
+}
+
+.img-testi {
+  width: 300px;
+}
+
+.mall {
+  justify-content: space-between;
+}
+
+.hero {
+  opacity: 30%;
+  width: 360px;
+  height: 400px;
+  z-index: 10;
+  position: absolute;
+}
+.img-shop {
+  width: 360px;
+  height: 400px;
+  z-index: -10;
+  position: absolute;
+}
+
+.bukamall {
+  z-index: 20;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.pbukamall {
+  text-align: center;
+  color: white;
+}
+
+.img-testi {
+  height: 300px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  z-index: 10;
+  margin-top: 230px;
+  border-radius: 10px;
+  /* margin-left: 2px;
+  margin-right: 2px; */
+  color: white;
+  text-shadow: 2px 2px 2px 2px;
+}
+.paragraf {
+  margin-top: 100px;
+  text-align: center;
+}
