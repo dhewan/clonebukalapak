@@ -1,30 +1,107 @@
- body{
-   margin: 0;
- }
- .container-head{
-   width: 100%;
-   padding: 0 22px;
-   margin: 0;
- }
-.carousel{
+.coba {
+  display: flex;
+  justify-content: space-between;
+}
+.judul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex-row;
+}
+
+li a {
+  font-size: 16px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  margin-left: -10px;
+}
+
+a {
+  margin-right: 10px;
+}
+
+.img-testi {
+  width: 300px;
+}
+
+.mall {
+  justify-content: space-between;
+}
+
+.img-shop {
+  width: 280px;
+  height: 480px;
+  z-index: -10;
+  position: absolute;
+}
+
+.bukamall {
+  z-index: 20;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px blue;
+}
+.pbukamall {
+  text-align: center;
+
+  color: white;
+  width: 200px;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
+}
+
+.img-testi {
+  height: 300px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  z-index: 10;
+  margin-top: 230px;
+  border-radius: 10px;
+  /* margin-left: 2px;
+  margin-right: 2px; */
+  color: white;
+  text-shadow: 2px 2px 2px 2px;
+}
+.paragraf {
+  margin-top: 100px;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+.container-head {
+  width: 100%;
+  padding: 0 22px;
+  margin: 0;
+}
+.carousel {
   width: 100%;
   display: flex;
   overflow-x: scroll;
-
 }
 
-.carousel img{
+.carousel img {
   padding: 0 5px;
-  width: 80%  ;
+  width: 80%;
 }
 
-.container-head a{
+.container-head a {
   text-decoration: none;
   color: #2b4ac7;
-  float:right
+  float: right;
 }
 
-.carousel-dot{
+.carousel-dot {
   width: 8px;
   height: 8px;
   border: none;
@@ -35,7 +112,7 @@
   margin-right: 2px;
 }
 
-.carousel-page{
-  float:left;
-  padding-top : 4px;
+.carousel-page {
+  float: left;
+  padding-top: 4px;
 }
