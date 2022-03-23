@@ -1,3 +1,24 @@
+CSS Malay */
+
+.container-fluid {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 50px;
+    /* padding-left: 20px; */
+    padding-top: 7px;
+    position: sticky;
+    /* z-index: 10; */
+}
+
+.nav-link  {
+    color:  #666666;
+    font-weight: 600;
+}
+
+/* Akhir CSS Malay
+
+
 /* Awal CSS DHewan */
 body {
     margin: 0;
@@ -56,6 +77,13 @@ body {
     font-family: 'popins', sans-serif;
 }
 
+/* .card-1{
+    height: fit-content;
+}
+
+.card-2{
+    height: ;
+} */
 .card-1 .container-fluid {
     padding-top: 50px;
     width: 100%;
