@@ -8,20 +8,20 @@ body {
     font-family: 'popins', sans-serif;
 }
 
-.container {
+.card-1 .container-fluid {
     padding-top: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.container .row-1 {
+.card-1 .container-fluid .row-1 {
     max-width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.container .row-1 .col-1 {
+.card-1 .container-fluid .row-1 .col-1 {
     margin: auto;
     text-align: center;
     align-items: center;
@@ -29,26 +29,26 @@ body {
     /* border: 1px solid black; */
 }
 
-.container .row-1 .col-1 .card img {
+.card-1 .container-fluid .row-1 .col-1 .card img {
     display: block;
 }
 
-.container .row-1 .col-1 .card p {
+.card-1 .container-fluid .row-1 .col-1 .card p {
     padding-top: 10px;
 }
 
 
 /* Card 2 */
-.container .row-2 {
+.card-2 .container-fluid .row-2 {
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 100px auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.container .row-2 .box {
+.card-2 .container-fluid .row-2 .box {
     width: 200px;
     margin: 0 5px;
     justify-content: space-around;
@@ -56,20 +56,20 @@ body {
     transition: 0.5s;
 }
 
-.container .row-2 .box:hover {
+.card-2 .container-fluid .row-2 .box:hover {
     transform: scale(1.3);
     z-index: 2;
     cursor: pointer;
 }
 
-.container .row-2 .box img {
+.card-2 .container-fluid .row-2 .box img {
     display: block;
     width: 100%;
     height: 200px;
     border-radius: 5px;
 }
 
-.container .row-2 .box p {
+.card-2 .container-fluid .row-2 .box p {
     padding: 10px;
     text-align: center;
 }
