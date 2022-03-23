@@ -1,0 +1,70 @@
+.header {
+  background-color: white;
+}
+
+.navbar {
+  padding: 1.5vh 0;
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  background-color: white;
+  margin-left: 100px;
+}
+
+.navbar_logoo {
+  width: 120px;
+  height: 70px;
+}
+
+.navbar_search_icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -3px;
+}
+
+.navbar_left {
+  display: flex;
+}
+.navbar_center {
+  display: flex;
+}
+
+.navbar_center > a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+
+.navbar_right {
+  display: flex;
+  position: absolute;
+  right: 100px;
+}
+
+.navbar_right > a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+
+.navbar_search_box {
+  margin-left: 30px;
+  align-self: center;
+  border: solid 1px black;
+  padding: 10px 30px 10px 10px;
+  border-radius: 5px;
+}
+
+.navbar_search_input {
+  border: none;
+  font-size: 17px;
+  background-color: transparent;
+}
+
+.navbar_search_input::placeholder {
+  color: #77287d;
+}
