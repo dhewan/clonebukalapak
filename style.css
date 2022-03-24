@@ -39,6 +39,7 @@ body {
 .carousel img {
     padding: 0 5px;
     width: 80%;
+    border-radius: 10px;
 }
 
 .container-head a {
