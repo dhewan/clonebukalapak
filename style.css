@@ -310,6 +310,16 @@ a {
 }
 /* /* Akhir Magdalisa CSS */
 
+/* rizki */
+.card-img, .card-img-top {
+
+  width: 100%!important;
+}
+
+.star{
+  width: 30px!important;
+}
+/* akhir rizki */
 @media (max-width: 600px) {
   /* MAGDALISA */
   .img-shop {
