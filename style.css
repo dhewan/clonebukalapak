@@ -312,6 +312,8 @@ a {
 
 @media (max-width: 600px) {
   /* MAGDALISA */
-
+  .img-shop {
+    width: 5%;
+  }
   /* AKHIR MAGDALISA */
 }
