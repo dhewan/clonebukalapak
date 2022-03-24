@@ -313,7 +313,13 @@ a {
 @media (max-width: 600px) {
   /* MAGDALISA */
   .img-shop {
-    width: 5%;
+    width: 10%;
+    height: 10%;
   }
+
+  .bukamall {
+    text-align: center;
+  }
+
   /* AKHIR MAGDALISA */
 }
