@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+=======
+
+/* css Magdalisa */
+.coba {
+  display: flex;
+  justify-content: space-between;
+
+}
+/* CSS Malay */ */
+
+.container-fluid {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 50px;
+    /* padding-left: 20px; */
+    padding-top: 7px;
+    position: sticky;
+    /* z-index: 10; */
+
+}
+
+.nav-link  {
+    color:  #666666;
+    font-weight: 600;
+}
+
+>>>>>>> 590ac615bb71b09dba6f544470e27b4f585c4435
 /* /* Akhir CSS Malay */
 
 .header {
@@ -18,6 +47,36 @@
   height: 100px;
 }
 
+<<<<<<< HEAD
+=======
+
+.mall {
+  justify-content: space-between;
+}
+
+.img-shop {
+  width: 280px;
+  height: 472px;
+  z-index: -10;
+  position: absolute;
+}
+
+.bukamall {
+  z-index: 20;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px darkgray;
+}
+.pbukamall {
+  text-align: center;
+  margin-left: 2rem;
+  color: white;
+  width: 200px;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
+}
+>>>>>>> 590ac615bb71b09dba6f544470e27b4f585c4435
 .navbar_search_icon {
   width: 20px;
   height: 20px;
@@ -53,6 +112,10 @@
   font-size: 20px;
   color: black;
   margin-top: 30px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 590ac615bb71b09dba6f544470e27b4f585c4435
 }
 .bukamallbutton {
   margin-left: 3rem;
@@ -70,6 +133,10 @@
   border-radius: 5px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 590ac615bb71b09dba6f544470e27b4f585c4435
 .logo {
   position: absolute;
   z-index: 10;
@@ -79,13 +146,34 @@
   border-radius: 10px;
   color: white;
   box-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px darkgray;
+<<<<<<< HEAD
+=======
+}
+.navbar_search_input {
+  border: none;
+  font-size: 17px;
+  padding: 0px;
+  margin-top: 0px;
+  background-color: transparent;
+
+>>>>>>> 590ac615bb71b09dba6f544470e27b4f585c4435
 }
 
 .navbar_search_input::placeholder {
   color: #77287d;
 }
+<<<<<<< HEAD
 /*  Akhir css Magdalisa */
 
+=======
+
+/*  Akhir css Magdalisa */
+
+
+
+/* Awal CSS DHewan */
+
+>>>>>>> 590ac615bb71b09dba6f544470e27b4f585c4435
 body {
   margin: 0;
 }
@@ -310,8 +398,23 @@ a {
 }
 /* /* Akhir Magdalisa CSS */
 
+<<<<<<< HEAD
 @media (max-width: 600px) {
   /* MAGDALISA */
 
   /* AKHIR MAGDALISA */
 }
+=======
+/* Rizki */
+.star{
+  width: 30px!important;
+}
+.card-img, .card-img-top {
+
+  width: 100%!important;
+}
+
+@media(max-width: 600px) {
+    
+}
+>>>>>>> 590ac615bb71b09dba6f544470e27b4f585c4435
