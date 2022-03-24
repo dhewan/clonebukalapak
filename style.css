@@ -1,4 +1,10 @@
 
+/* css Magdalisa */
+.coba {
+  display: flex;
+  justify-content: space-between;
+
+
 CSS Malay */
 
 .container-fluid {
@@ -10,6 +16,7 @@ CSS Malay */
     padding-top: 7px;
     position: sticky;
     /* z-index: 10; */
+
 }
 
 .nav-link  {
@@ -39,6 +46,33 @@ CSS Malay */
   height: 100px;
   
 }
+
+
+.mall {
+  justify-content: space-between;
+}
+
+.img-shop {
+  width: 280px;
+  height: 472px;
+  z-index: -10;
+  position: absolute;
+}
+
+.bukamall {
+  z-index: 20;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px darkgray;
+}
+.pbukamall {
+  text-align: center;
+  margin-left: 2rem;
+  color: white;
+  width: 200px;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
 
 .navbar_search_icon {
   width: 20px;
@@ -75,6 +109,14 @@ CSS Malay */
   font-size: 20px;
   color: black;
   margin-top: 30px;
+
+}
+.bukamallbutton {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  background-color: red;
+  color: white;
+  font-weight: bold;
 }
 
 .navbar_search_box {
@@ -85,12 +127,24 @@ CSS Malay */
   border-radius: 5px;
 }
 
+
+.logo {
+  position: absolute;
+  z-index: 10;
+  width: 10px;
+  margin-top: 230px;
+  margin-right: 1rem;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px darkgray;
+
 .navbar_search_input {
   border: none;
   font-size: 17px;
   padding: 0px;
   margin-top: 0px;
   background-color: transparent;
+
 }
 
 .navbar_search_input::placeholder {
@@ -99,7 +153,12 @@ CSS Malay */
  
 }
 
+/*  Akhir css Magdalisa */
+
+
+
 /* Awal CSS DHewan */
+
 body {
     margin: 0;
 }
