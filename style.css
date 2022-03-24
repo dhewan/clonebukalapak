@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
 
-
-CSS Malay */
+}
+/* CSS Malay */ */
 
 .container-fluid {
     background-color: #f2f2f2;
@@ -73,7 +73,7 @@ CSS Malay */
   color: white;
   width: 200px;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
-
+}
 .navbar_search_icon {
   width: 20px;
   height: 20px;
@@ -137,7 +137,7 @@ CSS Malay */
   border-radius: 10px;
   color: white;
   box-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px darkgray;
-
+}
 .navbar_search_input {
   border: none;
   font-size: 17px;
@@ -377,6 +377,15 @@ a {
 }
 
 /* /* Akhir Magdalisa CSS */
+
+/* Rizki */
+.star{
+  width: 30px!important;
+}
+.card-img, .card-img-top {
+
+  width: 100%!important;
+}
 
 @media(max-width: 600px) {
     
