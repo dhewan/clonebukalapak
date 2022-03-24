@@ -1,31 +1,52 @@
+
 /* css Magdalisa */
 .coba {
   display: flex;
   justify-content: space-between;
-}
-.judul {
-  margin: 0;
-  padding: 0;
+
+
+CSS Malay */
+
+.container-fluid {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 50px;
+    /* padding-left: 20px; */
+    padding-top: 7px;
+    position: sticky;
+    /* z-index: 10; */
+
 }
 
-li {
-  display: flex-row;
+.nav-link  {
+    color:  #666666;
+    font-weight: 600;
 }
 
-li a {
-  font-size: 16px;
-  display: block;
-  color: black;
-  text-align: center;
-  padding-right: 15px;
-  padding-bottom: 5px;
-  text-decoration: none;
-  margin-left: -10px;
+/* /* Akhir CSS Malay */
+
+
+
+.header {
+  background-color: white;
 }
 
-a {
-  margin-right: 10px;
+.navbar {
+  padding: 1.5vh 0;
+  display: flex;
+  top: 0;
+  background-color: white;
+  padding: 0 13px;
+  /* margin-left: 70px; */
 }
+
+.navbar_logoo {
+  width: 150px;
+  height: 100px;
+  
+}
+
 
 .mall {
   justify-content: space-between;
@@ -52,6 +73,43 @@ a {
   color: white;
   width: 200px;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
+
+.navbar_search_icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 200px;
+  margin-bottom: -3px;
+  float: right;
+}
+
+.navbar_left {
+  display: flex;
+}
+.navbar_center {
+  display: flex;
+}
+
+.navbar_center > a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+  color: black;
+  margin-top: 30px;
+}
+
+.navbar_right {
+  display: flex;
+  position: absolute;
+  right: 0px;
+}
+
+.navbar_right > a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+  color: black;
+  margin-top: 30px;
+
 }
 .bukamallbutton {
   margin-left: 3rem;
@@ -61,10 +119,14 @@ a {
   font-weight: bold;
 }
 
-.img-testi {
-  height: 300px;
-  position: relative;
+.navbar_search_box {
+  margin-left: 30px;
+  align-self: center;
+  border: solid 1px black;
+  padding: 10px 30px 10px 10px;
+  border-radius: 5px;
 }
+
 
 .logo {
   position: absolute;
@@ -75,50 +137,247 @@ a {
   border-radius: 10px;
   color: white;
   box-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px darkgray;
+
+.navbar_search_input {
+  border: none;
+  font-size: 17px;
+  padding: 0px;
+  margin-top: 0px;
+  background-color: transparent;
+
 }
-.paragraf {
-  margin-top: 100px;
-  text-align: center;
+
+.navbar_search_input::placeholder {
+
+  color: #77287d;
+ 
 }
+
 /*  Akhir css Magdalisa */
 
+
+
+/* Awal CSS DHewan */
+
 body {
-  margin: 0;
+    margin: 0;
 }
+
 .container-head {
-  width: 100%;
-  padding: 0 22px;
-  margin: 0;
+    width: 100%;
+    padding: 0 22px;
+    margin: 0;
 }
+
 .carousel {
-  width: 100%;
-  display: flex;
-  overflow-x: scroll;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
 }
 
 .carousel img {
-  padding: 0 5px;
-  width: 80%;
+    padding: 0 5px;
+    width: 80%;
+    border-radius: 10px;
 }
 
 .container-head a {
-  text-decoration: none;
-  color: #2b4ac7;
-  float: right;
+    text-decoration: none;
+    color: #2b4ac7;
+    float: right;
 }
 
 .carousel-dot {
-  width: 8px;
-  height: 8px;
-  border: none;
-  background-color: #ebebeb;
-  border-radius: 100%;
-  outline: none;
-  cursor: pointer;
-  margin-right: 2px;
+    width: 8px;
+    height: 8px;
+    border: none;
+    background-color: #ebebeb;
+    border-radius: 100%;
+    outline: none;
+    cursor: pointer;
+    margin-right: 2px;
 }
 
 .carousel-page {
-  float: left;
-  padding-top: 4px;
+    float: left;
+    padding-top: 4px;
+}
+
+/* Akhir Dhewan CSS */
+
+
+/* Awal Dhaniel CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'popins', sans-serif;
+}
+
+/* .card-1{
+    height: fit-content;
+}
+
+.card-2{
+    height: ;
+} */
+.card-1 .container-fluid {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-1 .container-fluid .row-1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-1 .container-fluid .row-1 .col-1 {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+.card-1 .container-fluid .row-1 .col-1 .card img {
+    display: block;
+}
+
+.card-1 .container-fluid .row-1 .col-1 .card p {
+    padding-top: 10px;
+}
+
+
+/* Card 2 */
+.card-2 .container-fluid .row-2 {
+    width: 100%;
+    /* padding: 10px; */
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-2 .container-fluid .row-2 .box {
+    width: 200px;
+    margin: 0 5px;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.card-2 .container-fluid .row-2 .box:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.card-2 .container-fluid .row-2 .box img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card-2 .container-fluid .row-2 .box p {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Akhir Dhaniel CSS */
+
+
+/* Magdalisa */
+.coba {
+    display: flex;
+    justify-content: space-between;
+}
+
+.judul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex-row;
+}
+
+li a {
+    font-size: 16px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    margin-left: -10px;
+}
+
+a {
+    margin-right: 10px;
+}
+
+.img-testi {
+    width: 300px;
+}
+
+.mall {
+    justify-content: space-between;
+}
+
+.img-shop {
+    width: 280px;
+    height: 480px;
+    z-index: -10;
+    position: absolute;
+}
+
+.bukamall {
+    z-index: 20;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px blue;
+}
+
+.pbukamall {
+    text-align: center;
+
+    color: white;
+    width: 200px;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
+}
+
+.img-testi {
+    height: 300px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    z-index: 10;
+    margin-top: 230px;
+    border-radius: 10px;
+    /* margin-left: 2px;
+  margin-right: 2px; */
+    color: white;
+    text-shadow: 2px 2px 2px 2px;
+}
+
+.paragraf {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* /* Akhir Magdalisa CSS */
+
+@media(max-width: 600px) {
+    
 }
