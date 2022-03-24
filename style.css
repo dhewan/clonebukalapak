@@ -1,3 +1,4 @@
+/* css Magdalisa */
 .coba {
   display: flex;
   justify-content: space-between;
@@ -26,17 +27,13 @@ a {
   margin-right: 10px;
 }
 
-.img-testi {
-  width: 300px;
-}
-
 .mall {
   justify-content: space-between;
 }
 
 .img-shop {
   width: 280px;
-  height: 480px;
+  height: 472px;
   z-index: -10;
   position: absolute;
 }
@@ -47,14 +44,21 @@ a {
   text-align: center;
   color: white;
   font-weight: bold;
-  text-shadow: 10px 10px 10px blue;
+  text-shadow: 10px 10px 10px darkgray;
 }
 .pbukamall {
   text-align: center;
-
+  margin-left: 2rem;
   color: white;
   width: 200px;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
+}
+.bukamallbutton {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  background-color: red;
+  color: white;
+  font-weight: bold;
 }
 
 .img-testi {
@@ -65,17 +69,19 @@ a {
 .logo {
   position: absolute;
   z-index: 10;
+  width: 10px;
   margin-top: 230px;
+  margin-right: 1rem;
   border-radius: 10px;
-  /* margin-left: 2px;
-  margin-right: 2px; */
   color: white;
-  text-shadow: 2px 2px 2px 2px;
+  box-shadow: 1px 1px 2px darkgray, 0 0 25px gray, 0 0 5px darkgray;
 }
 .paragraf {
   margin-top: 100px;
   text-align: center;
 }
+/*  Akhir css Magdalisa */
+
 body {
   margin: 0;
 }
