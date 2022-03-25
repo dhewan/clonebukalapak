@@ -331,6 +331,58 @@ a {
 }
 /* akhir rizki */
 @media (max-width: 600px) {
+  /* malay */
+  li a{
+    font-size: 7px;
+    margin-right: 0;
+  }
+  /* akhir malay */
+
+  /* fadilah */
+  .navbar_search_box {
+    margin-left: unset;
+    align-self: unset;
+    border: unset;
+    padding: unset;
+    border-radius:unset;
+}
+  .navbar_logoo {
+    width: 10%;
+    height: 10%;
+} 
+.navbar_search_input{
+  border: solid 1px black;
+  border-radius: 3px;
+  width: 60%;
+  height: 20%;
+  font-size: 10px;
+  padding-inline-start: 10px;
+}
+.navbar_center > a {
+  text-decoration: none;
+  padding: unset;
+  font-size: unset;
+  color: black;
+  margin-top: unset;
+}
+.navbar_search_icon {
+  width: 10px;
+  height: 10px;
+  margin-left: unset;
+  margin-bottom: unset;
+  float: unset;
+}
+  /* akhir fadilah */
+
+  /* Dhewan */
+  .carousel img{
+    width: 60%;
+  }
+  .carousel-dot{
+    width: 5px;
+    height: 5px;
+  }
+  /* Akhir Dhewan */
   /* MAGDALISA */
 
   .img-shop {
@@ -398,6 +450,14 @@ a {
     font-size: 100%;
     margin-top: 20px;
   }
+<<<<<<< HEAD
+  .container-head a{
+    font-size: 10px;
+    margin: 0;
+  }
+=======
 
+>>>>>>> 8301b6b8c41b362a59498326cb1847df08ee9853
   /* AKHIR MAGDALISA */
+  
 }
